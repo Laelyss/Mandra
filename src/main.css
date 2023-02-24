@@ -1,4 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@300&display=swap%22); */
 * {
   padding: 0;
   margin: 0;
@@ -74,10 +73,12 @@
   cursor: pointer;
   color: var(--whiteColor);
 }
+
 .btn a {
   color: var(--whiteColor);
   font-weight: 500;
 }
+
 .btn:hover {
   background: var(--HoverColor);
 }
@@ -108,6 +109,4 @@ h2 {
   font-size: 25px;
   padding: 1rem 0;
   color: var(--blackColor);
-}
-/* /# sourceMappingURL=main.css.map/ */
-  
+}/*# sourceMappingURL=main.css.map */
