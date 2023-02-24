@@ -1,34 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
+// import Home from './Components/Home/Home';
+// import Search from './Components/Search/Search';
+// import Info from './Components/Info/Info';
+// import Shop from './Components/Shop/Shop';
+// import Subcribers from './Components/Subscribers/Subcribers';
+// import Profil from './Components/Profil/Profil';
+// import Footer from './Components/Footer/Footer';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div>
+      <Navbar />
+      {/* <Home />
+      <Search />
+      <Info />
+      <Shop />
+      <Subcribers />
+      <Profil />
+      <Footer /> */}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
+
+// function App() {
+//   return (
+
+//     <Navbar />
+
+//   );
+// }
+
+// export default App;
